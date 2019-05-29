@@ -5,16 +5,13 @@
  */
 package ModelosSB;
 
-import javax.ejb.Stateless;
-
 /**
  *
  * @author edwin.zavaletafgkso
  */
-@Stateless
 public class DatosEncuestas {
-
-    private String nombreCompleto;
+    
+     private String nombreCompleto;
     private String[] proLeng;
 
     public String getNombreCompleto() {
@@ -32,6 +29,5 @@ public class DatosEncuestas {
     public void setProgLeng(String[] progLeng) {
         this.proLeng = progLeng;
     }
-    
     
 }
