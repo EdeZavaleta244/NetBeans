@@ -38,7 +38,7 @@ public class ServletController extends HttpServlet {
         
         datosEncuestas.setNombreCompleto(request.getParameter("nombreCompleto"));
         datosEncuestas.setProgLeng(request.getParameterValues("proLeng"));
-        request.setAttribute("datosEncuestas", datosEncuestas);
+        request.setAttribute("DatosEncuestas", datosEncuestas);
         request.getRequestDispatcher("salida.jsp").forward(request, response);
         
     }
